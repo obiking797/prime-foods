@@ -64,6 +64,8 @@ nav{
     margin-left: 20px;
     margin-right: 20px;
     padding-top:20px
+.prime-food p{
+    text-slign: centre;
 }
 .prime-food {
     display: flex;
