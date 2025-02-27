@@ -20,7 +20,7 @@ nav{
     align-items: center;
     text-align: center;
     position: relative; 
-    color : rgb(102, 4, 4)
+    color: white
 }
 .menu ul{
     display : flex;
