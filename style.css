@@ -1,0 +1,243 @@
+body{
+    font-family: serif;
+    margin: 0;
+    }
+nav{
+    background-color: rgb(181, 20, 20);
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 5px;
+    }
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative; 
+    color : rgb(102, 4, 4)
+}
+ .menu ul{
+    display : flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 20px;
+ }
+.menu li{
+    font-size: x-large;
+    text-align: center;
+    list-style: none;
+    padding-left: 20px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    }
+.menu li:hover{
+        color: black;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit;
+        color: rgb(206, 25, 25);
+    }
+    h2{
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        color: rgb(206, 25, 25);
+        margin-top: 100px;
+        font-size: x-large;
+    }
+.Prime-food p{
+    text-align: center;
+}
+
+.prime-food p{
+    text-align: justify;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.prime-food {
+    display: flex;
+    position: relative;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+.prime-food img{
+    width: 230px;
+    height: 250px;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Us{
+    
+    justify-content: space-between;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: larger;
+    font-style: italic;
+    color: white;
+    text-emphasis: center;  
+    display: flex;
+    background-color: rgb(181, 20, 20);
+}
+.Us p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size : larger;
+}
+h3{
+    text-align: center;
+    font-size: 29px;
+    font-style: initial;
+    color: red;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: red;
+}
+.ourmenu img {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ourmenu p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+.ourmenu img {
+    border-radius: 50px;
+    margin: 10px;
+}
+@media(max-width:1024px){
+        .prime-food{
+            display: block;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .ourmenu{
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .Us {
+            font-size: 13px;
+        }
+    }
+    .ourmenu{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+.footer, h4 {
+    margin-top: 100px;
+}
+.contact ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact li {
+    list-style: none;
+    padding: 20px;
+}
+.contact li a{
+    text-decoration: none;
+}
+.contact img{
+    border-radius: 50px;
+}
+h5{
+    text-align: center;
+    font-size: 20px;
+    font-style: initial;
+    color: red;
+}
+footer p{
+    text-align: center;
+}
+.btn{
+    display: none;
+}
+
+@media (max-wide:900px){
+.btn{
+    display: flex;
+}
+.menu{
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left:-200%;
+    width: 50%;
+    height: 25%;
+    transition: 0.5s;
+    background-color: red;
+    float: left;
+    text-align: center;
+}
+.menu li{
+    margin: 5px;
+    display: inline;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+}
+.menu.active{
+    left: 0;
+}
+}
+@media (max-width: 900px){
+    .block{
+        display: block;
+        text-align: center;
+    }
+    .ourmenu{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        cursor: pointer;
+    }
+}
