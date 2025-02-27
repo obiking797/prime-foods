@@ -27,7 +27,6 @@ nav{
     justify-content: space-between;
     list-style: none;
     padding-left: 20px;
-    padding-bottom: 50px;
  }
 .menu li{
     font-size: x-large;
@@ -82,7 +81,6 @@ nav{
     border-radius: 100px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 50px;
 
 }
 .Us{
