@@ -56,7 +56,9 @@ nav{
         margin-top: 100px;
         font-size: x-large;
     }
-
+.prime-food p{
+    text-slign: centre;
+}
 .prime-food p{
     text-align: justify;
     align-items: center;
@@ -64,9 +66,7 @@ nav{
     margin-left: 20px;
     margin-right: 20px;
     padding-top:20px
-.prime-food p{
-    text-slign: centre;
-}
+
 .prime-food {
     display: flex;
     position: relative;
