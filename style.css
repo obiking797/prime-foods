@@ -140,13 +140,17 @@ h4{
     border-radius: 50px;
     margin: 10px;
 }
-@media(max-width:1024px){
+@media(max-width:900px){
         .prime-food{
             display: block;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
+@media (max-width: 900px){
+    .block{
+        display: block;
+        text-align: center;
         }
         .ourmenu{
             flex-direction: column;
@@ -220,13 +224,7 @@ footer p{
 .menu.active{
     left: 0;
 }
-}
-@media (max-width: 900px){
-    .block{
-        display: block;
-        text-align: center;
-    }
-    .ourmenu{
+.ourmenu{
         display: block;
         justify-content: center;
         align-items: center;
