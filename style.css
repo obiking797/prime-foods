@@ -27,6 +27,7 @@ nav{
     justify-content: space-between;
     list-style: none;
     padding-left: 20px;
+    color: white;
  }
 .menu li{
     font-size: x-large;
