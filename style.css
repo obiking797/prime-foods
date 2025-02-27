@@ -191,7 +191,7 @@ footer p{
     text-align: center;
 }
 .btn{
-    display: none;
+    display: flex;
 }
 
 @media (max-wide:900px){
