@@ -197,11 +197,12 @@ footer p{
 @media (max-wide:900px){
 .btn{
     display: flex;
+    font-size:30px;
 }
 .menu{
     flex-direction: column;
     position: absolute;
-    top: 30px;
+    top: 40px;
     left:-200%;
     width: 50%;
     height: 25%;
