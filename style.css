@@ -27,12 +27,14 @@ nav{
     justify-content: space-between;
     list-style: none;
     padding-left: 20px;
+    padding-bottom: 50px;
  }
 .menu li{
     font-size: x-large;
     text-align: center;
     list-style: none;
     padding-left: 20px;
+    padding-bottom: 50px;
     color: white;
     cursor: pointer;
     margin-right: 5px;
@@ -71,6 +73,8 @@ nav{
     align-items: center;
     justify-content: center;
     padding-top:20px
+    padding-bottom: 50px;
+
 }
 .prime-food img{
     width: 230px;
@@ -78,6 +82,8 @@ nav{
     border-radius: 100px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 50px;
+
 }
 .Us{
     
@@ -101,6 +107,8 @@ nav{
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 50px;
+
     font-size : larger;
 }
 h3{
